@@ -1,10 +1,19 @@
 import React from 'react'
 
-import { ExampleComponent } from 'react-whiteboard'
+import { Whiteboard } from 'react-whiteboard'
 import 'react-whiteboard/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <div className='whiteboard-wrapper'>
+      <div>
+        <h3> React Whiteboard</h3>
+      </div>
+      <div className='whiteboard'>
+        <Whiteboard text='Create React Library Example 😄' />
+      </div>
+    </div>
+  )
 }
 
 export default App

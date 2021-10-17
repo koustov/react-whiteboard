@@ -12,3 +12,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root {
+  width: 100vw;
+  height: 90vh;
+}
+
+.whiteboard-wrapper {
+  padding: 2rem;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.whiteboard {
+  flex: 1;
+  border: 1px solid #efefef;
+  box-sizing: border-box;
+}
